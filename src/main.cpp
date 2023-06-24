@@ -9,8 +9,8 @@
 
 #include <lal/properties/C_rla.hpp>
 #include <lal/properties/D_rla.hpp>
-#include <lal/linarr/D/D.hpp>
-#include <lal/linarr/C/C.hpp>
+#include <lal/linarr/D.hpp>
+#include <lal/linarr/C.hpp>
 
 #define ERROR { std::cout << "ERROR! Line " << __LINE__ << '\n'; return 1; }
 
